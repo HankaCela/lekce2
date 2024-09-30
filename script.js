@@ -18,3 +18,7 @@ document.body.innerHTML += `
     <h1>Výpočet příjmu divadla</h1>
     <p>Měsíční příjem: ${prijem} €</p>
     <p>Měsíční příjem se studentskou slevou: ${celkovyPrijemSeSlevou} €</p>`;
+
+
+// Hod kostkou
+    let hodKostkou = Math.floor(Math.random() * 6) + 1;
