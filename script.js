@@ -24,3 +24,4 @@ document.body.innerHTML += `
     let hodKostkou = Math.floor(Math.random() * 6) + 1;
     document.body.innerHTML += `<h1>Hod kostkou</h1>
                                 <p>Padlo číslo: ${hodKostkou}</p>`;
+                                
